@@ -385,7 +385,3 @@ temp<- stack(d_cccma_1m, d_csiro_1m, d_had_1m)
                 
                 
 #################################
-desm2011<- readShapePoly("C:\\IPAM\\dados_amazonia\\desmatamento\\desmatamento_ate_2011\\desmat_amaz_ate_2011.shp",
-        proj4string=CRS("+proj=longlat +datum=WGS84")) 
-                                    
-unifiedPolygons <- unionSpatialPolygons(desm2011, rep(1, length(desm2011))
